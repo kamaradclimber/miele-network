@@ -8,7 +8,9 @@ All flows between this network and the other networks wan are rejected.
 
 Washing machine requires usage of WPS to connect to the wifi. Documentation for WPS on openwrt is [here](https://openwrt.org/docs/guide-user/network/wifi/basic).
 
-## Analysis
+## Analysis of washingmachine_part0.pcap
+
+First connection attempt is stored in `washingmachine_part0.pcap`
 
 ### DHCP
 
