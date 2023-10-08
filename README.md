@@ -112,3 +112,5 @@ curl http://ntp.mcs2.miele.com/V2/NTP/ -v
 ```
 
 So we have NTP over http. Probably a way to work in more restricted networks where ntp port might not be opened.
+
+We can now capture that request with a super simple fake http server to give the washing machine what it expects. I'm using [sinatra](https://sinatrarb.com/intro.html) with a simple server written in ruby. See `fake_miele.rb` file and launch it with `ruby fake_miele.rb`
